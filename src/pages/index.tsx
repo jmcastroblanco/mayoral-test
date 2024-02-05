@@ -1,7 +1,13 @@
 import { NextPage } from "next";
+import PLP from "./PLP";
 
-const HomePage: NextPage = () => {
-  return <div>Hello World!</div>;
+/**
+ * Home page component.
+ * @const
+ * @returns {JSX.Element} - The rendered JSX element.
+ */
+const HomePage: NextPage = (): JSX.Element => {
+  return <PLP />;
 };
 
 export default HomePage;
